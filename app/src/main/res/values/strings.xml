@@ -9,11 +9,11 @@
     <string name="name_escape">Escape Room</string>
     <string name="desc_escape">Are you able to escape?</string>
     <!--ToVisit Fragment-->
-    <string name="name_milano">Aero Gravity</string>
-    <string name="desc_milano">The biggest fallen simulator of the word!</string>
-    <string name="name_galleria">Apokas</string>
-    <string name="desc_galleria">Paint Ball, Laser Combat, Soft Air</string>
-    <string name="name_cenacolo">Escape Room</string>
+    <string name="name_milano">Milano</string>
+    <string name="desc_milano">The City of Innovation, Food and Fashion</string>
+    <string name="name_galleria">Galleria</string>
+    <string name="desc_galleria">Glamour, Art and coulture of the city</string>
+    <string name="name_cenacolo">Cenacolo</string>
     <string name="desc_cenacolo">Are you able to escape?</string>
     <!--EatDrink Fragment-->
     <string name="name_eataly">Aero Gravity</string>

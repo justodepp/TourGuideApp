@@ -21,10 +21,10 @@ public class AroundFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.name_aero_gravity, R.string.desc_aero_gravity,
-                R.drawable.aero_gravity));
-        places.add(new Place(R.string.name_apokas, R.string.desc_apokas,
-                R.drawable.apokas));
+        places.add(new Place(R.string.name_milano, R.string.desc_milano,
+                R.drawable.milano));
+        places.add(new Place(R.string.name_eataly, R.string.desc_eataly,
+                R.drawable.eataly));
         places.add(new Place(R.string.name_escape, R.string.desc_escape,
                 R.drawable.escape_room));
 

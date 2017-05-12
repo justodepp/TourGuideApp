@@ -21,12 +21,12 @@ public class ToVisitFragment extends Fragment{
 
         // Create a list of words
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place(R.string.name_aero_gravity, R.string.desc_aero_gravity,
-                R.drawable.aero_gravity));
-        places.add(new Place(R.string.name_apokas, R.string.desc_apokas,
-                R.drawable.apokas));
-        places.add(new Place(R.string.name_escape, R.string.desc_escape,
-                R.drawable.escape_room));
+        places.add(new Place(R.string.name_milano, R.string.desc_milano,
+                R.drawable.milano));
+        places.add(new Place(R.string.name_cenacolo, R.string.desc_cenacolo,
+                R.drawable.cenacolo));
+        places.add(new Place(R.string.name_galleria, R.string.desc_galleria,
+                R.drawable.galleria));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
