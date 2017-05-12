@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Tour Guide</string>
+
+    <!--Action Fragment-->
+    <string name="name_aero_gravity">Aero Gravity</string>
+    <string name="desc_aero_gravity">The biggest fallen simulator of the word!</string>
+    <string name="name_apokas">Apokas</string>
+    <string name="desc_apokas">Paint Ball, Laser Combat, Soft Air</string>
+    <string name="name_escape">Escape Room</string>
+    <string name="desc_escape">Are you able to escape?</string>
+    <!--ToVisit Fragment-->
+    <string name="name_milano">Aero Gravity</string>
+    <string name="desc_milano">The biggest fallen simulator of the word!</string>
+    <string name="name_galleria">Apokas</string>
+    <string name="desc_galleria">Paint Ball, Laser Combat, Soft Air</string>
+    <string name="name_cenacolo">Escape Room</string>
+    <string name="desc_cenacolo">Are you able to escape?</string>
+    <!--EatDrink Fragment-->
+    <string name="name_eataly">Aero Gravity</string>
+    <string name="desc_eataly">The biggest fallen simulator of the word!</string>
+    <string name="name_mercato">Apokas</string>
+    <string name="desc_mercato">Paint Ball, Laser Combat, Soft Air</string>
+    <string name="name_doping">Escape Room</string>
+    <string name="desc_doping">Are you able to escape?</string>
+
+    <!--Tab Name-->
+    <string name="tab1">Around</string>
+    <string name="tab2">Visit</string>
+    <string name="tab3">Action</string>
+    <string name="tab4">Eat&amp;Drink</string>
 </resources>
