@@ -1,46 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    style="@style/CardStyle">
 
-    <android.support.v7.widget.CardView style="@style/CardStyle">
+    <LinearLayout
+        style="@style/std_layout"
+        android:layout_marginTop="8dp"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/place_image_view"
+            style="@style/CardImageView"
+            android:background="@drawable/aero_gravity"
+            android:contentDescription="place image" />
 
         <LinearLayout
-            style="@style/std_layout"
-            android:layout_marginTop="8dp"
-            android:baselineAligned="false"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <ImageView
-                android:id="@+id/place_image_view"
-                style="@style/CardImageView"
-                android:background="@drawable/aero_gravity"
-                android:contentDescription="place image" />
+            <TextView
+                android:id="@+id/place_name_text_view"
+                style="@style/place_name_text_view"
+                tools:text="Simulatore" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:orientation="vertical"
-                android:padding="8dp"
-                android:layout_weight="1">
-
-                <TextView
-                    android:id="@+id/place_name_text_view"
-                    style="@style/place_name_text_view"
-                    tools:text="Simulatore" />
-
-                <TextView
-                    android:id="@+id/place_description_text_view"
-                    style="@style/place_description_text_view"
-                    tools:text="zona Rho Milano" />
-
-            </LinearLayout>
+            <TextView
+                android:id="@+id/place_description_text_view"
+                style="@style/place_description_text_view"
+                tools:text="zona Rho Milano" />
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </LinearLayout>
 
-</LinearLayout>
+</android.support.v7.widget.CardView>
