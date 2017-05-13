@@ -2,6 +2,8 @@ package com.example.android.tourguideapp;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,18 +30,24 @@ public class EatFragment extends Fragment{
         places.add(new Place(R.string.name_doping, R.string.desc_doping,
                 R.drawable.thedopingclub));
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        PlaceRecyclerViewAdapter adapter = new PlaceRecyclerViewAdapter(places);
+
+        RecyclerView recyclerView = (RecyclerView) rootView.findViewById(R.id.list);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+        // Create an {@link PlaceAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+        //PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        // item_list.xml layout file.
+        //ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
-        listView.setAdapter(adapter);
+        // Make the {@link ListView} use the {@link PlaceAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Place} in the list.
+        //listView.setAdapter(adapter);
         return rootView;
     }
 
