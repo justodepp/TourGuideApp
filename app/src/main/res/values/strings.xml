@@ -14,18 +14,18 @@
     <string name="name_galleria">Galleria</string>
     <string name="desc_galleria">Glamour, Art and coulture of the city</string>
     <string name="name_cenacolo">Cenacolo</string>
-    <string name="desc_cenacolo">Are you able to escape?</string>
+    <string name="desc_cenacolo">Art and History</string>
     <!--EatDrink Fragment-->
-    <string name="name_eataly">Aero Gravity</string>
-    <string name="desc_eataly">The biggest fallen simulator of the word!</string>
-    <string name="name_mercato">Apokas</string>
-    <string name="desc_mercato">Paint Ball, Laser Combat, Soft Air</string>
-    <string name="name_doping">Escape Room</string>
-    <string name="desc_doping">Are you able to escape?</string>
+    <string name="name_eataly">Eataly</string>
+    <string name="desc_eataly">Shop, Eat and fun</string>
+    <string name="name_mercato">Al Mercato</string>
+    <string name="desc_mercato">Good food for good people</string>
+    <string name="name_doping">The Doping Club</string>
+    <string name="desc_doping">What do you want to drink?</string>
 
     <!--Tab Name-->
     <string name="tab1">Around</string>
     <string name="tab2">Visit</string>
-    <string name="tab3">Action</string>
-    <string name="tab4">Eat&amp;Drink</string>
+    <string name="tab3">Eat&amp;Drink</string>
+    <string name="tab4">Action</string>
 </resources>
