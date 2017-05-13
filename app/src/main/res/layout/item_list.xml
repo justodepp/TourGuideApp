@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/CardStyle">
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/std_layout"
+    android:layout_marginBottom="8dp">
 
-    <LinearLayout
-        style="@style/std_layout"
-        android:layout_marginTop="8dp"
-        android:baselineAligned="false"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/place_image_view"
-            style="@style/CardImageView"
-            android:background="@drawable/aero_gravity"
-            android:contentDescription="place image" />
+    <android.support.v7.widget.CardView
+        style="@style/CardStyle">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:padding="8dp">
+            style="@style/std_layout"
+            android:layout_marginTop="8dp"
+            android:baselineAligned="false"
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/place_name_text_view"
-                style="@style/place_name_text_view"
-                tools:text="Simulatore" />
+            <ImageView
+                android:id="@+id/place_image_view"
+                style="@style/CardImageView"
+                android:background="@drawable/aero_gravity"
+                android:contentDescription="place image" />
 
-            <TextView
-                android:id="@+id/place_description_text_view"
-                style="@style/place_description_text_view"
-                tools:text="zona Rho Milano" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/place_name_text_view"
+                    style="@style/place_name_text_view"
+                    tools:text="Simulatore" />
+
+                <TextView
+                    android:id="@+id/place_description_text_view"
+                    style="@style/place_description_text_view"
+                    tools:text="zona Rho Milano" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
-
-</android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
