@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     style="@style/std_layout">
 
     <android.support.v7.widget.CardView
-        style="@style/CardStyle"
-        android:layout_marginBottom="8dp">
+        style="@style/CardStyle">
 
         <LinearLayout
             style="@style/std_layout"
@@ -15,9 +13,7 @@
 
             <ImageView
                 android:id="@+id/place_image_view"
-                style="@style/CardImageView"
-                android:background="@drawable/aero_gravity"
-                android:contentDescription="place image" />
+                style="@style/CardImageView" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,13 +24,11 @@
 
                 <TextView
                     android:id="@+id/place_name_text_view"
-                    style="@style/place_name_text_view"
-                    tools:text="Simulatore" />
+                    style="@style/place_name_text_view" />
 
                 <TextView
                     android:id="@+id/place_description_text_view"
-                    style="@style/place_description_text_view"
-                    tools:text="zona Rho Milano" />
+                    style="@style/place_description_text_view" />
 
             </LinearLayout>
 
